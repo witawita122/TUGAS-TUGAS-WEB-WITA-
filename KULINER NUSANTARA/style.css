@@ -1,0 +1,91 @@
+body {
+    background-color: aqua;
+    background-image:url(./putih/corakputih.jpg);
+     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  #home { 
+    background-image: url('./putih/bck.jfif');
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu li {
+    margin-bottom: 20px;
+  }
+  
+  #menu img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  #about p {
+    margin-bottom: 20px;
+  }
+  
+  #contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contact li {
+    margin-bottom: 20px;
+  }
+  
+  #contact a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both 

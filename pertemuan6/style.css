@@ -1,0 +1,31 @@
+nav {
+  background-color: rgb(28, 144, 47);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  margin-right: 5px;
+}
+nav ul-li a {
+  color: rgb(31, 196, 119);
+  text-decoration: none;
+}
+main {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: rgb(24, 108, 55);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}

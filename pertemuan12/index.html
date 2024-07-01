@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #87f509; /* warm orange background */
+    }
+
+    .main {
+      background-color: #ffffff; /* white background */
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      width: 500px;
+      margin: 40px auto;
+      border: 1px solid #ff69b4; /* pink border */
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #333; /* dark gray text */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #cccccc; /* light gray border */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      border-color: #34a853; /* green border on focus */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    button[type="submit"] {
+      background-color: #209a24; /* orange background */
+      color: #ffffff; /* white text */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #ffc107; /* darker orange background on hover */
+    }
+
+    .error {
+      color: #ff0000; /* red text for error messages */
+    }
+  </style>
+  <body>
+    <div class="main">
+      <h1>User Registration</h1>
+      <form action="" method="post">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="prodi">Prodi:</label>
+        <input
+          type="text"
+          id="prodi"
+          name="prodi"
+          placeholder="Enter your prodi"
+          required
+        />
+
+        <label for="alamat">Alamat:</label>
+        <input
+          type="text"
+          id="alamat"
+          name="alamat"
+          placeholder="Enter your address"
+          required
+        />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <label for="repeat_password">Repeat Password:</label>
+        <input
+          type="password"
+          id="repeat_password"
+          name="repeat_password"
+          placeholder="Repeat your password"
+          required
+        />
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pendaftaran.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form method="post" action="/" id="formingRegister">
+        <div class="form-section">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-section">
+          <label for="Email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-section">
+          <label for="prodi">Prodi</label>
+          <select name="prodi" id="">
+            <option value="TI">Teknik Informatika</option>
+            <option value="SI">Sistem Informasi</option>
+            <option value="MI">Manajemen Informasi</option>
+            <option value="KA">Komputerisasi Akuntansi</option>
+          </select>
+        </div>
+        <div class="form-section">
+          <label for="alamat">Alamat</label>
+          <textarea name="alamat" id=""></textarea>
+        </div>
+        <div class="form-section">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-section">
+          <label for="rpassword">Repeat Password</label>
+          <input type="password" name="rpassword" id="rpassword" />
+        </div>
+        <button type="submit" onclick="validasi()">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
