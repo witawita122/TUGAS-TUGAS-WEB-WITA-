@@ -1,6 +1,6 @@
 body {
     background-color: aqua;
-    background-image:url(./putih/corakputih.jpg);
+    background-image:url(./putih/putih.jfif);
      font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ body {
   }
   
   #home { 
-    background-image: url('./putih/bck.jfif');
+    background-image: url('./putih/resst.jfif');
     background-size: cover;
     height: 70vh;
     display: flex;
